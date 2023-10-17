@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevAmish Portfolio Website</title>
+
+    <!-- Normalize css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+3:wght@300;400;900&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="/" >&lt;devamish&gt;<a>
+      </div>
+
+      <!-- Hamburger -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Navigation -->
+      <nav class="nav">
+        <ul class="nav__list destyle-ul">
+          <li class="nav__list-item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro section -->
+    <section class="intro" id="intro">
+      <header class="intro__header">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Amish Singh</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Front-End Dev</p>
+    </header>
+      <img src="/img/amish.jpg" alt="A picture of Amish smiling" class="intro__img" />
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services-group">
+        <!-- Design to Code service -->
+        <div class="service">
+          <h3 class="service__title">Design to Code</h3>
+          <p class="service__body">
+             I specialize in bringing design visions to life by crafting functional and engaging web interfaces. Collaborating with talented UI/UX designers, I meticulously translate their mockups from figma or adobe xd  into fluid website using HTML, CSS, JavaScript,Pug and SCSS. My work extends beyond aesthetics; I'm dedicated to creating responsive and user-friendly experiences, ensuring that websites and applications look and perform flawlessly on all devices
+          </p>
+        </div>
+
+        <!-- Progressive Web App Service -->
+        <div class="service">
+          <h3 class="service__title">Progressive Web App</h3>
+          <p class="service__body">
+            Progressive Web Apps (PWAs) represent the future of web development, and I'm excited to be at the forefront of this transformative technology. PWAs combine the best of both web and mobile applications, offering users a seamless, fast, and reliable experience. My expertise in developing PWAs involves leveraging the latest web technologies like workers and manifest files to create applications that can work offline, load quickly, and provide a native-app-like experience. 
+          </p>
+        </div>
+
+        <!-- Web Accessibility -->
+        <div class="service">
+          <h3 class="service__title">Web Accessibility</h3>
+          <p class="service__body">
+            I believe in creating digital experiences that are inclusive and user-friendly for all. I'm familiar with the best practices for implementing accessible features, such as proper semantic HTML, ARIA roles, and keyboard navigation. I understand the importance of alt text and robust color contrast. By making accessibility a priority in my work, I aim to break down barriers and provide equal access to information and services for everyone. 
+          </p>
+        </div>
+      </div>
+      <!-- / div.services -->
+
+      <!-- Link to my projects -->
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <!--/ section.services-->
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+       Developer and Linux Ethusiast based out of India
+      </p>
+      <div class="about__body">
+        <p>
+          I am a final-year engineering student at the Indian Institute of Information Technology in Surat, India, specializing in frontend development. I have a strong foundation in CSS and web design, creating user-friendly interfaces. My skills include HTML, CSS, JavaScript, SCSS, Pug, Vite, Node.js, GitHub, and Git.
+        </p>
+          <p>
+            In addition to frontend, I've explored backend development, using MongoDB, Express, Node.js, and React to build small-scale applications. I'm passionate about optimizing solutions for large-scale data. My journey began with Linux, enhancing my technical skills. I'm dedicated to the fusion of design and technology in web development and enjoy friendly CSS battles on <a href="https://cssbattle.dev/player/amish1211" class="dark-link">cssbattle.dev</a>
+        </p>
+
+      </div>
+      <!-- / div.about__body -->
+
+     
+    </section>
+    <!-- / section.about -->
+
+    <!-- My Works Section -->
+    <section class="work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio-list">
+        <!-- Portfolio 1 -->
+        
+          <a href="/restaurant-portfolio-item.html" class="portfolio-list__link">
+            <img src="/img/portfolio-01.png" alt="" class="portfolio__img" />
+          </a>
+        
+          <a href="/champions-portfolio-item.html" class="portfolio-list__link">
+            <img src="/img/champions-portfolio.png" alt="" class="portfolio__img" />
+          </a>
+        
+
+       
+        
+
+        </div>
+      <!-- / div.portfolio-list -->
+    </section>
+    <!-- / section.work -->
+
+    <footer class="footer">
+      <a href="mailto:amish.kumar1211@gmail.com" class="footer__link">amish.kumar1211@google.com</a>
+
+      <!-- Social Links -->
+      <ul class="social-list destyle-ul">
+
+        <!-- Codepen Link -->
+        <li class="social-list__item">
+          <a href="https://cssbattle.dev/player/amish1211" class="social-list__link">
+            {&#9876;}
+          </a>
+        </li>
+
+        <!-- Dribble Link -->
+        <li class="social-list__item">
+          <a href="https://codepen.io/amish1211" class="social-list__link">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+
+        <!-- Twitter Link -->
+        <li class="social-list__item">
+          <a href="https://twitter.com/amish311203" class="social-list__link">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+
+        <!-- Github Link -->
+        <li class="social-list__item">
+          <a href="https://github.com/amish1211" class="social-list__link">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+
+      </ul> <!-- / ul.social-list -->
+    </footer>
+
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>

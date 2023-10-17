@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevAmish Portfolio Website</title>
+
+    <!-- Normalize css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+3:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="/">&lt;devamish&gt;</a>
+      </div>
+
+      <!-- Hamburger -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Navigation -->
+      <nav class="nav">
+        <ul class="nav__list destyle-ul">
+          <li class="nav__list-item">
+            <a href="/index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="/index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="/index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="/index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro section -->
+    <section class="intro individual-project--intro" id="intro">
+      <header class="intro__header">
+        <h1 class="section__title section__title--intro">
+          Flavors Unveiled at<strong>Fox Hollow Restaurant</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+          Where Taste Meets Ambiance
+        </p>
+      </header>
+      <a href="https://restaurantamish1211.netlify.app"><img src="/img/restaurant-portfolio.png" alt="" class="intro__img" /></a>
+    </section>
+
+    <section class="individual-project-section">
+      <p>
+        The <a href="https://restaurantamish1211.netlify.app" class="dark-link">Fox Hollow Restaurant</a> project is a prime example of the creative
+        synergy between culinary art and web design. It was entirely developed
+        using HTML, CSS, and a touch of JavaScript, reflecting the perfect blend
+        of gastronomy and technology. Notably, SCSS (Sass) played a crucial role
+        in shaping the project's visual identity and enhancing its
+        maintainability, making it not only functional but also aesthetically
+        pleasing..
+      </p>
+      <img
+        src="/img/restaurant-details.png"
+        alt=""
+        class="portfolio__image--detail"
+      />
+      <p>
+        The project's CSS structure is exceptionally organized and easily
+        configurable, thanks to the power of <strong>SCSS</strong> The utilization of SCSS
+        allowed for modularization of stylesheets, breaking down design elements
+        into separate, manageable files. This modular approach simplifies the
+        process of locating and modifying specific style rules, enabling
+        fine-tuning of the restaurant's visual presentation with ease. SCSS
+        variables and mixins further contribute to flexibility, ensuring
+        consistent color schemes, typography, and the reuse of design patterns
+        throughout the website. This not only guarantees a polished and cohesive
+        appearance but also accelerates any future changes or updates to the
+        design, making maintenance a breeze.
+      </p>
+      <p>
+        Moreover, the 'Fox Hollow Restaurant' project was not just about
+        functionality; it was also about the fun of creative innovation.
+        Building the animatable hamburger menu was a delightful and engaging
+        experience. It added an interactive and playful touch to the website,
+        enhancing user experience while showcasing the enjoyment of web
+        development. The project thus serves as a testament to the delightful
+        intersection of organized and easily configurable CSS through SCSS, as
+        well as the joy of bringing creative elements like the animatable
+        hamburger menu to life.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <a href="mailto:amish.kumar1211@gmail.com" class="footer__link"
+        >amish.kumar1211@google.com</a
+      >
+
+      <!-- Social Links -->
+      <ul class="social-list destyle-ul">
+        <!-- Codepen Link -->
+        <li class="social-list__item">
+          <a
+            href="https://cssbattle.dev/player/amish1211"
+            class="social-list__link"
+          >
+            {&#9876;}
+          </a>
+        </li>
+
+        <!-- Dribble Link -->
+        <li class="social-list__item">
+          <a href="https://codepen.io/amish1211" class="social-list__link">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+
+        <!-- Twitter Link -->
+        <li class="social-list__item">
+          <a href="https://twitter.com/amish311203" class="social-list__link">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+
+        <!-- Github Link -->
+        <li class="social-list__item">
+          <a href="https://github.com/amish1211" class="social-list__link">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- / ul.social-list -->
+    </footer>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>
